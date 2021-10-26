@@ -1,0 +1,116 @@
+.App {
+  text-align: center;
+  background-color: darkgray;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color:darkgray;
+}
+input#submit{
+  color: #444444;
+  text-shadow: 0px 1px 1px #ffffff;
+  border-bottom: 2px solid #b2b2b2;
+  border-radius:1em;
+  font-size:medium;
+  font-weight:bold;
+  background-color: #b9e4e3;
+  background:-webkit-gradient(linear,left top,left bottom, from(#beeae9),to(#a8cfce));
+  background: -moz-linear-gradient(top,#beeae9,#a8cfce);
+  background: -o-linear-gradient(top,#beeae9,#a8cfce);
+  background: -ms-linear-gradient(top,#beeae9,#a8cfce);
+}
+input#submit:hover{
+  color: #333333;
+  border: 1px solid #a4a4a4;
+  border-top: 2px solid #b2b2b2;
+  background-color: #a0dbc4;
+  background:-webkit-gradient(linear,left top,left bottom, from(#a8cfce),to(#beeae9));
+  background: -moz-linear-gradient(top,#a8cfce,#beeae9);
+  background: -o-linear-gradient(top,#a8cfce,#beeae9);
+  background: -ms-linear-gradient(top,#a8cfce,#beeae9);
+}
+input#searchField{
+  margin-right:2em;
+  margin-left:1em;
+  border: 1px solid #a4a4a4;
+  border-top: 2px solid #b2b2b2;
+  border-radius:1em;
+  font-size:medium;
+}
+select#positionField{
+  border-radius:1em;
+  margin-right:1em;
+  margin-left:1em;
+  font-size:medium;
+  text-align-last:center;
+}
+li {
+  display: flex;
+  border: 3px solid black;
+  line-height: 2em;
+  overflow: hidden;
+  justify-content: center;
+  justify-items: center;
+  background-color:#e1a8a8;
+}
+li:hover{
+  background-color:dodgerblue;
+  cursor: pointer;
+}
+
+.InputSection{
+  outline-color:#000000;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-top:10px;
+  justify-content: center;
+}
+.Results-all{
+  display:flex;
+}
+.Results-child {
+  flex:1;
+  overflow:hidden;
+  width:50%;
+}
+.Results-child:first-child {
+  margin-right: 20px;
+  width:20%;
+} 
+.Results-child-stats {
+  width:50%;
+  background-color:cornflowerblue;
+  overflow:hidden;
+  height:fit-content;
+  position:sticky;
+  top:4rem;
+}
+.Results-names{
+  width:20%;
+  display: flex;
+  flex-flow: column nowrap;
+  overflow:hidden;
+  margin-left:50px;
+}
+Label{
+  font-size:large;
+  font-weight: bold;
+}
+div#overall{
+  background-color: #b2b2b2;
+  height:100%;
+  width:100%;
+}
+p#heading{
+  font-size:x-large;
+  font-weight:bolder;
+}
+
+
